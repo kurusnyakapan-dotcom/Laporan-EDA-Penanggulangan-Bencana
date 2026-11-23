@@ -1,7 +1,7 @@
 # LAPORAN LENGKAP EXPLORATORY DATA ANALYSIS (EDA)
 ## Rekapitulasi Kejadian dan Dampak Bencana di Kabupaten Cilacap Periode Januari – Agustus 2026
 **Mata Kuliah:** Data Science (PSIKS2W002)  
-**Program Studi:** Program Magister (S2) Ilmu Komputer / Teknik Informatika, Universitas Amikom Purwokerto  
+**Program Studi:** Program Magister (S2) Ilmu Komputer, Universitas Amikom Purwokerto  
 **Dosen Pengampu:** Giat Karyono, M.Kom.  
 **Penyusun:** Yunita Narstyarini (NIM: 26MA41D016)  
 **Standar Metodologi:** CRISP-DM / TDSP Framework & Silabus Kuliah Minggu 1–5  
