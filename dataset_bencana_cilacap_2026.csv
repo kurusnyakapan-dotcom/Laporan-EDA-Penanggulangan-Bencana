@@ -1,0 +1,16 @@
+﻿Jenis_Bencana,Kejadian,Kecamatan_Terdampak,Desa_Kelurahan_Terdampak,Meninggal_Dunia,Luka_Berat,Luka_Ringan,Rumah_Roboh_Musnah,Rumah_Rusak_Berat,Rumah_Rusak_Sedang,Rumah_Rusak_Ringan,Rumah_Terendam_KK,Rumah_Terancam,Infra_Sekolah,Infra_Jln_Nas,Infra_Jln_Prov,Infra_Jln_Kab,Infra_Jln_Desa,Infra_Tebing,Infra_Sawah,Infra_Turap_Talud,Infra_Tanggul,Infra_Saluran_Air,Infra_Lahan_Terbakar,Infra_Pabrik,Infra_Pasar,Infra_Tempat_Usaha,Infra_Jembatan,Infra_Tempat_Ibadah,Infra_Fasum_Lainnya,Warga_Terdampak_Jiwa,Warga_Terdampak_KK,Warga_Terdampak_L,Warga_Terdampak_P,Pengungsi_Jiwa,Pengungsi_KK,Pengungsi_L,Pengungsi_P,Jumlah_Kerugian
+BANJIR,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Rp0
+TNH.LONGSOR,33,19,32,-,-,-,-,2,18,8,-,32,2,-,2,6,14,6,4,8,-,-,-,1,-,-,-,1,2,73,31,36,47,11,3,3,8,Rp1.550.900.000
+CUACA EKSTREM,93,51,83,-,-,-,7,23,37,802,-,-,2,-,-,-,-,-,-,-,-,-,-,-,-,-,21,-,4,2679,851,1188,1499,13,7,5,8,Rp1.423.925.000
+KEKERINGAN,61,32,59,-,-,-,-,-,-,-,-,41116,57,-,-,-,-,-,77,-,-,2,-,-,1,-,-,-,9,41332,14821,17119,22988,-,-,-,-,Rp0
+KARHUTLA,8,7,8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6,-,-,-,-,-,-,214,64,-,-,-,-,-,-,Rp1.350.000
+GEL.PASANG & ABRASI,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Rp0
+KEKERINGAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Rp0
+GEMPA BUMI,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Rp0
+TSUNAMI,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Rp0
+ERUPSI GUNUNG API,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Rp0
+EPIDEMI DAN WABAH PENYAKIT,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Rp0
+KEBAKARAN GEDUNG DAN PEMUKIMAN,6,6,6,-,-,-,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3,-,-,-,-,-,-,287,75,-,-,-,-,-,-,Rp20.000.000
+GAGAL TEKNOLOGI,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Rp0
+KONFLIK SOSIAL,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Rp0
+KEJADIAN LAINNYA,9,6,9,5,-,-,2,-,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6,4,4,4,1,1,1,-,Rp118.500.000
