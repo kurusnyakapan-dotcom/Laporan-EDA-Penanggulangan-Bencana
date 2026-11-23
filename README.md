@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-Academic-green.svg)]()
 
-> **Tugas Ujian Tengah Semester (UTS) Mata Kuliah Data Science (PSIKS2W002)**  
+> **Tugas Mata Kuliah Data Science (PSIKS2W002)**  
 > **Program Studi:** Magister (S2) Ilmu Komputer, Universitas Amikom Purwokerto  
 > **Dosen Pengampu:** Giat Karyono, M.Kom.  
 > **Penyusun:** Yunita Narstyarini (NIM: 26MA41D016)
