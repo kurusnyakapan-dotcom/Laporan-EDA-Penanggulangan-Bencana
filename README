@@ -1,0 +1,83 @@
+# Proyek Sains Data: Analisis Pola Bencana & Klasterisasi Risiko Tingkat Kecamatan di Kabupaten Cilacap (2026)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-Academic-green.svg)]()
+
+> **Tugas Ujian Tengah Semester (UTS) Mata Kuliah Data Science (PSIKS2W002)**  
+> **Program Studi:** Magister (S2) Ilmu Komputer, Universitas Amikom Purwokerto  
+> **Dosen Pengampu:** Giat Karyono, M.Kom.  
+> **Penyusun:** Yunita Narstyarini (NIM: 26MA41D016)
+
+---
+
+## 📌 Ringkasan Eksekutif (Executive Summary)
+Kabupaten Cilacap merupakan wilayah terluas di Jawa Tengah dengan kompleksitas kerentanan bencana hidrometeorologi yang tinggi. Proyek ini mengimplementasikan siklus metodologi **CRISP-DM (Cross-Industry Standard Process for Data Mining)** untuk:
+1. **Exploratory Data Analysis (EDA):** Menginvestigasi struktur, anomali, serta pola frekuensi dari 210 kejadian bencana dan kerugian finansial senilai Rp3,11 Miliar berdasarkan data resmi BPBD Cilacap (Januari–Agustus 2026).
+2. **Klasterisasi Segmentasi Risiko Kecamatan (*Unsupervised Learning*):** Mengelompokkan 20 kecamatan terdampak menggunakan algoritma *Hierarchical Agglomerative Clustering (Ward Linkage)* dan *K-Medoids* guna menghasilkan segmentasi risiko berbasis data (*data-driven priority*).
+
+---
+
+## 📂 Struktur Repositori
+
+```text
+├── dataset_bencana_cilacap_2026.csv            # Dataset rekapitulasi kejadian bencana BPBD Cilacap 2026 (39 atribut bersih)
+├── kekeringan dan pengiriman air bersih.csv    # Dataset logistik pengiriman air bersih tingkat desa/kecamatan
+├── EDA_Bencana_Cilacap_2026.ipynb              # Jupyter Notebook implementasi EDA dan Klasterisasi Machine Learning
+├── Laporan_EDA_Bencana_Cilacap_2026-Yunita Narstyarini.docx # Dokumen laporan formal UTS (Bab 1 s.d. Bab 9)
+├── README.md                                   # Dokumentasi utama proyek
+└── .gitignore                                  # Mengabaikan file temporary / checkpoint
+```
+
+---
+
+## 🔬 Metodologi Sains Data
+
+```mermaid
+flowchart LR
+    A["1. Business Understanding<br>(BPBD Logistics & BTT Budget)"] --> B["2. Data Understanding<br>(146 Desa, 20 Kecamatan)"]
+    B --> C["3. Data Preparation<br>(MinMax Scale & Log Transform)"]
+    C --> D["4. Modeling<br>(Hierarchical Ward & K-Medoids)"]
+    D --> E["5. Evaluation<br>(Elbow & Silhouette Score = 0.58)"]
+    E --> F["6. Deployment<br>(Alokasi Anggaran BTT 70-20-10)"]
+```
+
+---
+
+## 📊 Temuan Utama (Key Findings)
+
+### 1. Trias Bencana Hidrometeorologi (Pola Dominan)
+- **89,0%** dari seluruh kejadian bencana didominasi oleh tiga jenis bencana:
+  - **Cuaca Ekstrem:** 93 kejadian (44,3%), merusak 869 unit rumah (802 rusak ringan).
+  - **Kekeringan:** 61 kejadian (29,0%), berdampak pada 41.332 jiwa warga dan 77 titik sawah.
+  - **Tanah Longsor:** 33 kejadian (15,7%), merusak 20 titik jalan kabupaten/provinsi dengan kerugian finansial tertinggi (**Rp1,55 Miliar** / rata-rata Rp47 Juta per kejadian).
+
+### 2. Hasil Segmentasi Klaster 20 Kecamatan (Silhouette Score = 0,58)
+
+| Klaster | Tipologi Risiko | Kecamatan Anggota | Total Desa | Jiwa Terdampak | Realisasi Tangki | Pangsa Kabupaten |
+| :---: | :--- | :--- | :---: | :---: | :---: | :---: |
+| **Klaster 1** | **Zona Merah: Krisis Akut** | **Kawunganten, Gandrungmangu, Jeruklegi, Patimuan** | **57** | **45.245** | **1.339 tangki** | **70,0%** |
+| **Klaster 2** | **Zona Oranye: Sedang & Multi-Hazard** | Wanareja, Dayeuhluhur, Cimanggu, Bantarsari, Kampung Laut, Kesugihan, Sidareja, Majenang | 64 | 46.702 | 533 tangki | 27,9% |
+| **Klaster 3** | **Zona Hijau: Risiko Rendah / Stabil** | Adipala, Karangpucung, Cipari, Kroya, Nusawungu, Kedungreja, Cilacap Tengah, Sampang | 25 | 15.010 | 41 tangki | 2,1% |
+
+---
+
+## 💡 Rekomendasi Kebijakan (Actionable Value)
+1. **Alokasi Anggaran BTT 70-20-10:** Mengunci 70% alokasi Belanja Tidak Terduga (BTT) logistik air untuk 4 kecamatan Klaster 1.
+2. **Pendirian Sub-Depo Tangki Air:** Menempatkan depo aju di koridor Jeruklegi–Kawunganten guna memangkas jarak tempuh armada rata-rata 38 km per ritase dari pusat kota dan menghemat biaya BBM operasional hingga ~25%.
+3. **Kesiapsiagaan Ganda (*Dual-Preparedness*):** Kesiapsiagaan tangki air di musim kemarau dan alat berat/eskavator pembersih longsor di musim hujan pada kecamatan perbukitan Klaster 2 (Majenang, Dayeuhluhur, Wanareja, Cimanggu).
+
+---
+
+## 🚀 Cara Menjalankan Proyek
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/USERNAME_ANDA/NAMA_REPO.git
+   cd NAMA_REPO
+   ```
+2. Buka berkas `EDA_Bencana_Cilacap_2026.ipynb` menggunakan **Google Colab** atau **Jupyter Lab**.
+3. Pastikan dataset `dataset_bencana_cilacap_2026.csv` dan `kekeringan dan pengiriman air bersih.csv` berada pada direktori kerja yang sama.
+4. Jalankan seluruh sel kode secara berurutan (*Run All*).
+
+---
+*Disusun untuk keperluan akademik Program Pascasarjana Magister Ilmu Komputer Universitas Amikom Purwokerto.*
